@@ -14,4 +14,5 @@ def helper(given_set,subset,i):
         subset[i] = given_set[i]
         helper(given_set,subset,i+1)
 
-allSubsets([1,'abc'])
+if __name__ == '__main__':
+	allSubsets([1,'abc'])
